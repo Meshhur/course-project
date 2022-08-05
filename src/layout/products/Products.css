@@ -37,7 +37,6 @@
     max-width: 493px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .product-image {
@@ -55,11 +54,43 @@
     padding: 10px 25px;
 }
 
-.about-product {}
+.about-product {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 
-.no-price {
-    padding: 0 25px;
 }
+
+.carton-box {
+    max-width: 209px;
+}
+
+.no-price-box {
+    padding: 0 25px;
+    max-width: 229px;
+    height: 128px;
+    padding: 10px 25px;
+}
+
+.no-price-poly {
+    padding: 0 25px;
+    max-width: 255px;
+    height: 128px;
+    padding: 11px 25px;
+}
+
+.custom-tape {
+    max-width: 197px;
+}
+
+.sticker {
+    max-width: 166px;
+}
+
+.custom-paper {
+    max-width: 182px;
+}
+
 
 .product-text {
     color: #011F3A;

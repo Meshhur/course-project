@@ -19,7 +19,7 @@ function Products() {
                 <div className="product">
                     <img className='product-image' src={rectangles} alt="rectangles" />
                     <article className='info-for-product'>
-                        <article className="about-product">
+                        <article className="about-product carton-box">
                             <h3 className='product-text'>Custom Carton Boxes</h3>
                             <p className="product-text-item">
                                 Create a clean brand presentation with this custom carton box.
@@ -32,17 +32,17 @@ function Products() {
                 </div>
                 <div className="product">
                     <img className='product-image' src={box} alt="blue box" />
-                    <article className='about-product no-price'>
+                    <article className='about-product no-price-box'>
                         <h3 className='product-text'>Custom Boxes</h3>
                         <p className="product-text-item">
-                            A stylish and strong corrugated cardboard box.
+                            A stylish and strong <br/>corrugated cardboard box.
                         </p>
                     </article>
 
                 </div>
                 <div className="product">
                     <img className='product-image' src={pillow} alt="white pillow" />
-                    <article className='about-product no-price'>
+                    <article className='about-product no-price-poly'>
                         <h3 className='product-text'>Custom Poly Mailers</h3>
                         <p className="product-text-item">
                             A fully custom high quality self sealing poly mailer.
@@ -53,7 +53,7 @@ function Products() {
                 <div className="product">
                     <img className='product-image' src={scotch} alt="scotch" />
                     <article className='info-for-product'>
-                        <article className="about-product">
+                        <article className="about-product custom-tape">
                             <h3 className='product-text'>Custom Tape</h3>
                             <p className="product-text-item">
                                 High quality custom tape to seal your shipping boxes during delivery.
@@ -68,7 +68,7 @@ function Products() {
                 <div className="product">
                     <img className='product-image' src={mini_card} alt="mini card" />
                     <article className='info-for-product'>
-                        <article className="about-product">
+                        <article className="about-product sticker">
                             <h3 className='product-text'>Custom Stickers</h3>
                             <p className="product-text-item">
                                 Add personality to your packages with custom stickers.
@@ -83,7 +83,7 @@ function Products() {
                 <div className="product">
                     <img className='product-image' src={blue_paper} alt="paper" />
                     <article className='info-for-product'>
-                        <article className="about-product">
+                        <article className="about-product custom-paper">
                             <h3 className='product-text'>Custom Tissue Paper</h3>
                             <p className="product-text-item">
                                 The perfect addition to branding your package.
