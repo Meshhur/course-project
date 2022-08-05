@@ -2,6 +2,7 @@ import './App.css';
 import Achievements from './layout/achievements/Achievements';
 import Customers from './layout/customers/Customers';
 import Header from './layout/header/Header';
+import Products from './layout/products/Products';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <main className='wrapper'>
                 <Customers />
                 <Achievements />
+                <Products />
             </main>
 
         </div>
