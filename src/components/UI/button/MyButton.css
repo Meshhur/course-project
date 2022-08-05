@@ -1,0 +1,35 @@
+button {
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    font-weight: 700;
+    border-radius: 44px;
+    border: none;
+    line-height: 18px;
+}
+
+.myButton {
+    background-color: #3D5675;
+    height: 56px;
+    width: 228px;
+    color: #FFFFFF;
+}
+
+.myButton:hover {
+    background-color: #0f335e;
+    transition: all .3s ease-in-out;
+    transform: scale(.98);
+}
+
+.white-btn {
+    background-color: #FFFFFF;
+    color: #3D5675;
+    height: 44px;
+    width: 158px;
+}
+
+.white-btn:hover {
+    background-color: #3D5675;
+    color: white;
+    transition: all .5s ease-in-out;
+}

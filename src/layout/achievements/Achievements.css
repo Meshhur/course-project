@@ -1,0 +1,41 @@
+.achievements {
+    background-color: #fff;
+}
+
+.achievements-content {
+    max-height: 120px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certificate {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.diploms-name {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.6000000238418579px;
+    text-align: left;
+    color: #A1A1A1;
+}
+
+.shopify {
+    max-width: 81px;
+    margin-left: 16px;
+}
+
+.amazon {
+    max-width: 67px;
+    margin-left: 16px;
+}
+
+.mix {
+    max-width: 60px;
+    margin-left: 16px;
+}

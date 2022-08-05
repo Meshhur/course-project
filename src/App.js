@@ -1,10 +1,20 @@
 import './App.css';
-import Header from './layout/Header';
+import Achievements from './layout/achievements/Achievements';
+import Customers from './layout/customers/Customers';
+import Header from './layout/header/Header';
 
 function App() {
     return (
 
-        <Header />
+        <div>
+
+            <Header />
+            <main className='wrapper'>
+                <Customers />
+                <Achievements />
+            </main>
+
+        </div>
 
     );
 }

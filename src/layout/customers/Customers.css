@@ -1,0 +1,39 @@
+.customers {
+    background: #F2AE4D;
+    display: flex;
+    height: 750px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.custom-box {
+    margin-left: 120px;
+}
+
+.custom-box h1 {
+    margin-bottom: 35px;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: 400;
+    max-width: 480px;
+    /* max-height: 168px; */
+}
+
+.box-txt {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    max-width: 277px;
+    /* max-height: 48px; */
+}
+
+.pic {
+    max-height: 504px;
+    max-width: 504px;
+    margin-top: 50px;
+}
