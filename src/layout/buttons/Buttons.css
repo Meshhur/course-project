@@ -1,0 +1,26 @@
+.buttons {
+    height: 292px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.getToIt {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #011F3A;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.second_btn {
+    height: 44px;
+    width: 247px;
+}
