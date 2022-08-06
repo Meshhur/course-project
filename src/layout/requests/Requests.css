@@ -1,0 +1,63 @@
+.requests {
+    background-color: #FFCA3A;
+    display: flex;
+    justify-content: space-evenly;
+    height: 720px;
+}
+
+.request {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 440px;
+    margin: auto 0;    
+}
+
+.req_quote {
+    border-right: 2px solid rgba(161, 161, 161, 0.4);
+    padding-right: 210px;
+}
+
+.req_pictures {
+    width: 240px;
+    max-height: 240px;
+    max-width: 240px;
+    margin-bottom: 24px;
+}
+
+.req-head {
+    height: 36px;
+    width: 334px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #011F3A;
+    margin-bottom: 14px;
+}
+
+.req-tex-item {
+    height: 48px;
+    width: 310px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #3D5675;
+    margin-bottom: 10px;
+}
+
+.second-item {
+    height: 72px;
+    width: 356px;
+}
+
+.quote {
+    height: 44px;
+    width: 204px;
+}
+
+.dieline {
+    height: 44px;
+    width: 196px;
+}

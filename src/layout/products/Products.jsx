@@ -15,7 +15,7 @@ function Products() {
                 <h2 className='customer'>Products you can customize</h2>
                 <MyButton className="myButton browse-btn">Browse all products</MyButton>
             </article>
-            <section className='products container'>
+            <section className='products container' id='products'>
                 <div className="product">
                     <img className='product-image' src={rectangles} alt="rectangles" />
                     <article className='info-for-product'>

@@ -5,6 +5,7 @@ import Customers from './layout/customers/Customers';
 import Customs from './layout/customs/Customs';
 import Header from './layout/header/Header';
 import Products from './layout/products/Products';
+import Requests from './layout/requests/Requests';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Products />
                 <Customs />
                 <Buttons />
+                <Requests />
 
             </main>
 

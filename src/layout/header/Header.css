@@ -54,8 +54,8 @@
 .active::after {
   content: "";
   position: absolute;
-  height: 1.3px;
-  top: 17px;
+  height: 1.5px;
+  top: 19px;
   left: 0;
   width: 0%;
   background-color: #011F3A;

@@ -12,10 +12,10 @@ function Header() {
                 <ul className='nav-ul'>
                     <li>
                         <img className='li-star' src={subaru_stars} alt="stars of subaru motors" />
-                        <a href="#start " className='active'>Start your design</a>
+                        <a href="#start" className='active'>Start your design</a>
                     </li>
                     <li>
-                        <a href="">All products</a>
+                        <a href="#products">All products</a>
                     </li>
                     <li>
                         <a href="">Inspiration</a>
