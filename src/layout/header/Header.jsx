@@ -18,15 +18,15 @@ function Header() {
                         <a href="#products">All products</a>
                     </li>
                     <li>
-                        <a href="">Inspiration</a>
+                        <a href="#customs">Inspiration</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#requests">About</a>
                     </li>
                 </ul>
             </nav>
             <div className="profile">
-                <a href="">ACCOUNT</a>
+                <a href="#">ACCOUNT</a>
                 <img src={cart} alt="cart" />
             </div>
         </header>

@@ -8,7 +8,7 @@ import MyButton from '../../components/UI/button/MyButton';
 
 function Customs() {
     return (
-        <section className="customs container">
+        <section className="customs container" id='customs'>
             <h2 className="customs-head">
                 Fast and easy custom boxes your customers will love
             </h2>

@@ -23,6 +23,16 @@ body {
   font-weight: 400;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -37,12 +47,24 @@ button {
   cursor: pointer;
 }
 
+input {
+  outline: none;
+}
+
 a {
   text-decoration: none;
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {

@@ -20,6 +20,11 @@
     column-gap: 14px;
 }
 
+.first_btn {
+    height: 44px;
+    width: 220px;
+}
+
 .second_btn {
     height: 44px;
     width: 247px;

@@ -11,7 +11,7 @@ import Requests from './layout/requests/Requests';
 function App() {
     return (
 
-        <div>
+        <div className='App'>
 
             <Header />
 

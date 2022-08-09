@@ -23,7 +23,7 @@ function Achievements() {
                 <article className='certificate'>
                     <img src={mix} alt="mix diploma" />
                     <p className='diploms-name mix'>
-                        Eco-Friendly
+                        Eco-Frie<br/>ndly
                     </p>
                 </article>
             </div>

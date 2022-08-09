@@ -6,7 +6,7 @@ import iPad_pic from "../../images/png/iPad.png";
 
 function Requests() {
   return (
-    <div className='requests container'>
+    <div className='requests container' id='requests'>
         <article className='request req_quote'>
             <img className='req_pictures' src={box_pic} alt="" />
             <h2 className='req-head'>
@@ -32,7 +32,7 @@ function Requests() {
             </MyButton>
         </article>
     </div>
-  )
-}
+  );
+};
 
 export default Requests;

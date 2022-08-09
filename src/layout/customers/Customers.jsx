@@ -13,7 +13,7 @@ function Customers() {
                 <p className='box-txt'>
                     Fastest turnaround. Best prices instantly. Dieline design help available.
                 </p>
-                <MyButton className='myButton start-design'>
+                <MyButton className='myButton'>
                     start your design
                 </MyButton>
                 

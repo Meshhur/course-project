@@ -21,21 +21,18 @@
     font-size: 15px;
     line-height: 19px;
     letter-spacing: 0.6000000238418579px;
-    text-align: left;
     color: #A1A1A1;
+    margin-left: 16px;
 }
 
 .shopify {
     max-width: 81px;
-    margin-left: 16px;
 }
 
 .amazon {
     max-width: 67px;
-    margin-left: 16px;
 }
 
 .mix {
     max-width: 60px;
-    margin-left: 16px;
 }

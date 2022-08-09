@@ -1,0 +1,83 @@
+.footer {
+    flex: 0 0 auto;
+    margin-top: 60px;
+    background-color: #F3F4F5;
+    height: 365px;
+    padding: 60px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.contact-li {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    color: #365172;
+    transition: all .2s;
+}
+
+.contact-li:hover {
+    color: red;
+    transition: all .2s;
+}
+
+.social-media-png {
+    max-height: 24px;
+    max-width: 24px;
+}
+
+.logos {
+    display: flex;
+    column-gap: 12px;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+
+.offer-txt {
+    height: 18px;
+    width: 203px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #3D5675;
+}
+
+.email-input {
+    height: 36px;
+    width: 280px;
+    padding-left: 18px;
+}
+
+.email-input::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 18px;
+    color: rgba(61, 86, 117, 0.4);
+    text-indent: 0px;
+    transition: all .5s ease-in;
+
+}
+
+.email-input:focus::placeholder {
+    text-indent: -100px;
+    transition: all .5s ease-in;
+}
+
+.join-button {
+    height: 44px;
+    width: 187px;
+    border-radius: 44px;
+}

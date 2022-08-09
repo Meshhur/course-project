@@ -4,7 +4,7 @@ button {
     transition: all .3s ease-in-out;
     font-weight: 700;
     border-radius: 44px;
-    border: none;
+    border: none;   
     line-height: 18px;
 }
 
