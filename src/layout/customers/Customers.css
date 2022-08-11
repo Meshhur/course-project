@@ -37,3 +37,57 @@
     max-width: 504px;
     margin-top: 50px;
 }
+
+@media (max-width:1115px) {
+    .custom-box {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:1045px) {
+    .custom-box {
+        margin-left: 35px;
+
+    }
+
+    .custom-box h1 {
+        font-size: 40px;
+    }
+
+    .pic {
+        width: 450px;
+    }
+
+    .customers-btn {
+        width: 210px;
+        height: 50px;
+        letter-spacing: 1.6px;
+
+    }
+
+}
+
+@media (max-width:967px) {
+    .customers {
+        flex-direction: column;
+        height: 1000px;
+        margin-top: 60px; /* высота либкого хедера */
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:475px) {
+    .custom-box h1 {
+        font-size: 35px;
+    }
+
+    .customers-btn {
+        width: 200px;
+        height: 48px;
+        letter-spacing: 1.4px;
+    }
+
+    .pic {
+        width: 300px;
+    }
+}

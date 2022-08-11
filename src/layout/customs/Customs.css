@@ -62,3 +62,66 @@
     color: #011F3A;
     transform: none;
 }
+
+@media(max-width:1230px) {
+    .customs {
+        height: 100%;
+        padding: 20px 0 !important;
+        row-gap: 20px;
+    }
+
+    .customs-head {
+        font-size: 27px;
+    }
+
+    .equipments {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .eq-picture {
+        width: 280px;
+    }
+
+    .customs-headline {
+        font-size: 16px;
+        letter-spacing: 0.3px;
+    }
+
+    .customs-about {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .start-btn {
+        width: 190px;
+        height: 40px;
+        font-size: 12.5px;
+        letter-spacing: 1.6px;
+
+    }
+}
+
+@media(max-width:835px) {
+    .customs {
+        margin: 70px auto;
+        max-width: 400px;
+    }
+
+    .customs-head {
+        font-size: 24px;
+        text-align: center;
+    }
+    .start-btn {
+        width: 160px;
+        height: 38px;
+        font-weight: normal;
+        text-transform: none;
+    }
+}
+
+@media(max-width:430px) {
+    .customs {
+        max-width: 300px;
+    }
+}

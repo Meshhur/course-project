@@ -3,7 +3,7 @@
 }
 
 .achievements-content {
-    max-height: 120px;
+    height: 120px;
     height: 120px;
     width: 100%;
     display: flex;
@@ -35,4 +35,44 @@
 
 .mix {
     max-width: 60px;
+}
+
+@media (max-width:860px) {
+    .shopify-picture {
+        max-width: 120px;
+    }
+
+    .amazon-picture {
+        max-width: 65px;
+    }
+
+    .mix-picture {
+        max-width: 110px;
+    }
+
+    .diploms-name {
+        font-size: 14px;
+        letter-spacing: 0.45px;
+        margin-left: 12px;
+    }
+}
+
+@media(max-width:700px) {
+    .diploms-name {
+        letter-spacing: 0.4px;
+        margin-left: 2px;
+    }
+}
+
+@media(max-width:530px) {
+    .achievements {
+        height: 300px;
+    }
+
+    .achievements-content {
+        flex-direction: column;
+        max-height: 300px;
+        row-gap: 30px;
+        
+    }
 }

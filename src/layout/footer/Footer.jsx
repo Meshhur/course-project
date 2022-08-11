@@ -12,7 +12,7 @@ function Footer() {
     return (
         <footer className='footer'>
             <div className="content container">
-                <img className='logo' src={arka_logo} alt="our logo" />
+                <img className='f-logo' src={arka_logo} alt="our logo" />
                 <ul className="contact">
                     <a href="#" className="contact-link">
                         <li className="contact-li">Custom Design</li>
@@ -36,7 +36,7 @@ function Footer() {
                         <li className="contact-li">Request Dieline</li>
                     </a>
                 </ul>
-                <ul className="contact">
+                <ul className="contact contact-2">
                     <a href="#" className="contact-link">
                         <li className="contact-li">About Us</li>
                     </a>
@@ -56,7 +56,7 @@ function Footer() {
                         <li className="contact-li">Terms & Conditions</li>
                     </a>
                 </ul>
-                <ul className="contact">
+                <ul className="contact contact-3">
                     <a href="#" className="contact-link">
                         <li className="contact-li">Shopify App</li>
                     </a>

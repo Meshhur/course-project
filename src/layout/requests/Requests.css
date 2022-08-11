@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     height: 440px;
-    margin: auto 0;    
+    margin: auto 0;
 }
 
 .req_quote {
@@ -60,4 +60,97 @@
 .dieline {
     height: 44px;
     width: 196px;
+}
+
+@media(max-width:1500px) {
+    .requests {
+        height: 100%;
+        padding: 70px 0;
+    }
+
+    .req_quote {
+        padding-right: 140px;
+    }
+}
+
+@media(max-width:1230px) {
+    .request {
+        height: 440px;
+        justify-content: space-between;
+    }
+
+    .req_quote {
+        padding-right: 35px;
+    }
+
+    .req_pictures {
+        width: 200px;
+        margin: 0;
+    }
+
+    .req-head {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .req-tex-item {
+        height: 72px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+}
+
+@media(max-width:835px) {
+    .requests {
+        flex-direction: column;
+        row-gap: 30px;
+        width: 400px;
+    }
+
+    .request {
+        max-width: 356px;
+        margin: 0 auto;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .req_quote {
+        margin-bottom: 30px;
+        padding: 0 0 60px 0;
+        border-right: none;
+        border-bottom: 2px solid rgba(161, 161, 161, 0.4);
+    }
+
+
+
+}
+
+@media(max-width:430px) {
+    .requests {
+        width: 300px;
+    }
+
+    .request {
+        max-width: 270px;
+    }
+
+    .req-tex-item {
+        width: 100%;
+    }
+
+    .req-head {
+        font-size: large;
+    }
+
+    .quote {
+        width: 170px;
+        font-size: 12px;
+    }
+
+    .dieline {
+        max-width: 170px;
+        max-height: 34px;
+        font-size: 12px;
+    }
 }

@@ -9,19 +9,19 @@ function Achievements() {
         <section className='achievements'>
             <div className="container achievements-content">
                 <article className='certificate'>
-                    <img src={shopify} alt="shopify diploma" />
+                    <img className='shopify-picture' src={shopify} alt="shopify diploma" />
                     <p className='diploms-name shopify'>
                         Shopify Integrated
                     </p>
                 </article>
                 <article className='certificate'>
-                    <img src={amazon} alt="amazon certificate" />
+                    <img className='amazon-picture' src={amazon} alt="amazon certificate" />
                     <p className='diploms-name amazon'>
                         Amazon Certified
                     </p>
                 </article>
                 <article className='certificate'>
-                    <img src={mix} alt="mix diploma" />
+                    <img className='mix-picture' src={mix} alt="mix diploma" />
                     <p className='diploms-name mix'>
                         Eco-Frie<br/>ndly
                     </p>
